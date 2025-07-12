@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="presets.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Skilled e-learning landing page</title>
+</head>
+<body>
+  <main class="wrapper">
+  <header>
+    <nav>
+      <img src="./assets/logo-dark.svg" alt="logo" class="logo">
+      <button class="text-preset7">Get Started</button>
+    </nav>
+  </header>
+  <section class="hero-wrapper">
+    <section class="hero">
+      <section class="content">
+        <span class="texts">
+          <p class="heading text-preset1">Maximize skill, minimize budget</p>
+          <p class="subtext text-preset5">Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want.</p>
+        </span>
+        <button class="text-preset7">Get Started</button>
+      </section>
+      <div class="hero-img-wrapper">
+        <picture>
+          <!-- Tablet -->
+          <source
+            srcset="./assets/image-hero-tablet.webp 1x, ./assets/image-hero-tablet@2x.webp 2x"
+            media="(min-width: 768px)"
+            type="image/webp" />
+          <!-- Mobile -->
+          <source
+            srcset="./assets/image-hero-mobile.webp 1x, ./assets/image-hero-mobile@2x.webp 2x"
+            type="image/webp" />
+          <!-- Fallback -->
+          <img
+            src="./assets/image-hero-mobile.webp"
+            alt="Hero image" />
+        </picture>
+      </div>
+    </section>
+  </section>
+  <section class="cards-wrapper">
+    <main class="cards">
+      <article class="card-intro">
+        <p class="text-preset3">Check out our most popular courses!</p>
+      </article>
+      <article class="card">
+        <img src="./assets/icon-animation.svg" alt="animation">
+        <span class="card-content">
+          <p class="heading text-preset4">Animation</p>
+          <p class="info">
+            Learn the latest animation techniques to create stunning motion
+            design and captivate your audience.
+          </p>
+          <a href="#" class="link text-preset7">Get Started</a>
+        </span>
+      </article>
+      <article class="card">
+        <img src="./assets/icon-design.svg" alt="design">
+        <span class="card-content">
+          <p class="heading text-preset4">Design</p>
+          <p class="info">
+            Create beautiful, usable interfaces to help shape the future of
+            how the web looks.
+          </p>
+          <a href="#" class="link text-preset7">Get Started</a>
+        </span>
+      </article>
+      <article class="card">
+        <img src="./assets/icon-photography.svg" alt="photography">
+        <span class="card-content">
+          <p class="heading text-preset4">Photography</p>
+          <p class="info">
+            Explore critical fundamentals like lighting, composition, and focus
+            to capture exceptional photos.
+          </p>
+          <a href="#" class="link text-preset7">Get Started</a>
+        </span>
+      </article>
+      <article class="card">
+        <img src="./assets/icon-crypto.svg" alt="crypto">
+        <span class="card-content">
+          <p class="heading text-preset4">Crypto</p>
+          <p class="info">
+            All you need to know to get started investing in crypto. Go from beginner
+            to advanced with this 54 hour course.
+          </p>
+          <a href="#" class="link text-preset7">Get Started</a>
+        </span>
+      </article>
+      <article class="card">
+        <img src="./assets/icon-business.svg" alt="business">
+        <span class="card-content">
+          <p class="heading text-preset4">Business</p>
+          <p class="info">
+            A step-by-step playbook to help you start, scale, and sustain your business
+            without outside investment.
+          </p>
+          <a href="#" class="link text-preset7">Get Started</a>
+        </span>
+      </article>
+    </main>
+  </section>
+  <footer>
+    <nav>
+      <img class="logo" src="./assets/logo-light.svg" alt="logo">
+      <button class="text-preset7">Get Started</button>
+    </nav>
+  </footer>
+  </main>
+</body>
+</html>
